@@ -1,0 +1,34 @@
+{
+  "pensamento": [
+    {
+      "id": "4d6a",
+      "conteudo": "Só porque você tem a profundidade emocional de uma colher de chá, não significa que todos nós também tenhamos",
+      "autoria": "Hermione Granger",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "e112",
+      "conteudo": "Quando você joga o jogo dos tronos, você vence ou morre",
+      "autoria": "Cersei Lannister, em Game of Thrones",
+      "modelo": "modelo2"
+    },
+    {
+      "conteudo": "Penso, logo existo",
+      "autoria": "René Descartes",
+      "modelo": "modelo2",
+      "id": "hR9tJDK"
+    },
+    {
+      "id": "5f14",
+      "conteudo": "Ontem, no entanto, perdi durante horas e horas a minha montagem humana. Se tiver coragem, eu me deixarei continuar perdida. Mas tenho medo do que é novo e tenho medo de viver o que não entendo quero sempre ter a garantia de pelo menos estar pensando que entendo, não sei me entregar à desorientação.",
+      "autoria": "Clarice Lispector",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Eles nunca deveriam ter nos dado uniformes se não quisessem que fôssemos um exército.",
+      "autoria": "The Handmaid's Tale",
+      "modelo": "modelo2",
+      "id": "tWHzDR-"
+    }
+  ]
+}
