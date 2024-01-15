@@ -55,8 +55,8 @@
       "id": "JA5rIYt"
     },
     {
-      "conteudo": "Mas é assim que acontece. Perdi quase tudo, e depois construí algo melhor.",
-      "autoria": "Nina LaCour, no livro Yerba Buena",
+      "conteudo": "Talvez Platão soubesse algo que não sabíamos. Ou talvez os deuses o fizessem, quando nos dividiram ao meio e nos deixaram para recuperar nossos fragmentos perdidos.",
+      "autoria": "Morgan Rogers, no livro Honey Girl",
       "modelo": "modelo1",
       "id": "CRNKSFE"
     },
@@ -65,6 +65,12 @@
       "autoria": "Christopher Paolini, Eragon",
       "modelo": "modelo2",
       "id": "UEkppwv"
+    },
+    {
+      "conteudo": "Os batimentos do seu coração fazem o mundo continuar girando.",
+      "autoria": "O silêncio das Águas",
+      "modelo": "modelo2",
+      "id": "77SXaxo"
     }
   ]
 }
