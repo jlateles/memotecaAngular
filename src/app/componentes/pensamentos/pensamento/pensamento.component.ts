@@ -9,7 +9,7 @@ import { Pensamento } from '../pensamento';
 export class PensamentoComponent implements OnInit {
 
   @Input() pensamento: Pensamento = {
-    id: 0,
+    id: '',
     conteudo: 'O pouco que sei não dá para compreender a vida, então a explicação está no que desconheço e que tenho a esperança de poder vir a conhecer um pouco mais',
     autoria: 'Clarice Lispector',
     modelo: 'modelo3'

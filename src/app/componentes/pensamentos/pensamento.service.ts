@@ -25,12 +25,12 @@ export class PensamentoService {
     return this.http.put<Pensamento>(url, pensamento)
   }
 
-  excluir(id: number): Observable<Pensamento>{
-    const url = `${this.API}/excluir/${id}`
+  excluir(id: string): Observable<Pensamento>{
+    const url = `${this.API}/${id}`
     return this.http.delete<Pensamento>(url)
   }
 
-  buscarPorID(id: number): Observable<Pensamento>{
+  buscarPorID(id: string): Observable<Pensamento>{
     const url = `${this.API}/${id}`
     return this.http.get<Pensamento>(url)
   }
