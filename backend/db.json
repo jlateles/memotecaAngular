@@ -13,10 +13,10 @@
       "modelo": "modelo2"
     },
     {
-      "conteudo": "Penso, logo existo",
+      "id": "hR9tJDK",
+      "conteudo": "Penso, logo existo.",
       "autoria": "René Descartes",
-      "modelo": "modelo3",
-      "id": "hR9tJDK"
+      "modelo": "modelo3"
     },
     {
       "id": "5f14",
@@ -83,6 +83,12 @@
       "autoria": "Taylor Swift, Anti-hero",
       "modelo": "modelo1",
       "id": "efA7jzu"
+    },
+    {
+      "conteudo": "O meu gosto, que é provavelmente a antítese de um gosto tolerante, está longe de o poder aprovar na totalidade: em geral, aprovar não está nos meus hábitos, prefiro contradizer ou até não dizer absolutamente nada… É o que eu faço em relação a culturas inteiras, em relação a livros,- e também a cidades e paisagens.",
+      "autoria": "Friedrich Nietzsche ",
+      "modelo": "modelo3",
+      "id": "BW6NwH0"
     }
   ]
 }
