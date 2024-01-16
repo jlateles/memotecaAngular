@@ -25,7 +25,7 @@ export class ListarPensamentoComponent implements OnInit {
     this.service.listar(++this.paginaAtual)
     .subscribe(listaPensamentos => {
       this.listaPensamentos.push(...listaPensamentos);
-      if(this.listaPensamentos.length){
+      if(!listaPensamentos.length){
         this.haMaisPensamentos = false
       }
     })

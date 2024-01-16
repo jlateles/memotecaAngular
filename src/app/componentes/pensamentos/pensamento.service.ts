@@ -19,8 +19,8 @@ export class PensamentoService {
     .set("_page", pagina)
     .set("_limite", itensPorPagina)
 
-  return this.http.get<Pensamento[]>( `${this.API}?_page=${pagina}&_limit=${itensPorPagina}`)
-  // return this.http.get<Pensamento[]>(this.API,{ params }) // não funcionou com a classe httpParams
+ return this.http.get<Pensamento[]>( `${this.API}?_page=${pagina}&_limit=${itensPorPagina}`)
+ return this.http.get<Pensamento[]>(this.API,{ params }) // não funcionou com a classe httpParams
   }
 
   criar(pensamento: Pensamento): Observable<Pensamento>{
