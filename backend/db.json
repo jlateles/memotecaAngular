@@ -89,6 +89,48 @@
       "autoria": "Friedrich Nietzsche ",
       "modelo": "modelo3",
       "id": "BW6NwH0"
+    },
+    {
+      "conteudo": "Pensamento duplo indica a capacidade de ter na mente, ao mesmo tempo, duas opiniões contraditórias e aceitar ambas.",
+      "autoria": "1984, livro de George Orwell",
+      "modelo": "modelo2",
+      "id": "PeB_eRC"
+    },
+    {
+      "conteudo": "É somente com o coração que se pode ver direito; o essencial é invisível aos olhos.",
+      "autoria": "O Pequeno Príncipe",
+      "modelo": "modelo3",
+      "id": "bXHODnZ"
+    },
+    {
+      "conteudo": "Só porque sua versão do normal não é a mesma que a versão de outra pessoa não significa que há algo de errado com você.",
+      "autoria": "A coisa terrível que aconteceu com Barnaby Brocket",
+      "modelo": "modelo1",
+      "id": "gA9N_EV"
+    },
+    {
+      "id": "4TeCTYR",
+      "conteudo": "Aceitamos o amor que achamos que merecemos.",
+      "autoria": "As vantagens de ser invisível",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Me vi sentada embaixo da árvore, morrendo de fome, simplesmente porque não conseguia decidir com qual figo eu ficaria. Eu queria todos eles, mas escolher um significava perder todo o resto, e enquanto eu ficava ali sentada, incapaz de tomar uma decisão, os figos começaram a encolher e ficar pretos e, um por um, desabaram no chão aos meus pés. ",
+      "autoria": "Sylvia Plath, em A redoma de vidro",
+      "modelo": "modelo1",
+      "id": "S2y_WTu"
+    },
+    {
+      "conteudo": "Só depois de perdermos tudo é que somos livres para fazer qualquer coisa.",
+      "autoria": "Chuck Palahniuk, Clube da Luta",
+      "modelo": "modelo2",
+      "id": "zp_Lr6p"
+    },
+    {
+      "conteudo": "Minha mãe sempre disse que a vida era como uma caixa de chocolates. Você nunca sabe o que vai receber.",
+      "autoria": "Forrest Gump, 1994",
+      "modelo": "modelo2",
+      "id": "t0ziyzi"
     }
   ]
 }
