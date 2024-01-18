@@ -12,7 +12,8 @@ export class PensamentoComponent implements OnInit {
     id: '',
     conteudo: 'O pouco que sei não dá para compreender a vida, então a explicação está no que desconheço e que tenho a esperança de poder vir a conhecer um pouco mais',
     autoria: 'Clarice Lispector',
-    modelo: 'modelo3'
+    modelo: 'modelo3',
+    favorito: false
   }
 
   constructor(){}
@@ -27,4 +28,12 @@ export class PensamentoComponent implements OnInit {
     }
     return 'pensamento-p'
   }
-}
+
+  mudarIconeFavorito(): string {
+    if(this.pensamento.favorito == false){
+      return 'inativo'
+    }
+    return 'ativo'
+  }
+
+} // final

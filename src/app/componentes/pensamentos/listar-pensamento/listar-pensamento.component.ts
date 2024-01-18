@@ -38,7 +38,7 @@ export class ListarPensamentoComponent implements OnInit {
       this.paginaAtual = 1;
       this.service.listar(this.paginaAtual, this.filtro)
         .subscribe(listaPensamentos => {
-          this.listaPensamentos = this.listaPensamentos
+          this.listaPensamentos = listaPensamentos;
         })
     }
 } // final

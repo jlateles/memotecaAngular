@@ -4,133 +4,155 @@
       "id": "4d6a",
       "conteudo": "Só porque você tem a profundidade emocional de uma colher de chá, não significa que todos nós também tenhamos",
       "autoria": "Hermione Granger",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": "e112",
       "conteudo": "Quando você joga o jogo dos tronos, você vence ou morre.",
       "autoria": "Cersei Lannister, em Game of Thrones",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": "hR9tJDK",
       "conteudo": "Penso, logo existo.",
       "autoria": "René Descartes",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": "5f14",
       "conteudo": "Ontem, no entanto, perdi durante horas e horas a minha montagem humana. Se tiver coragem, eu me deixarei continuar perdida. Mas tenho medo do que é novo e tenho medo de viver o que não entendo quero sempre ter a garantia de pelo menos estar pensando que entendo, não sei me entregar à desorientação.",
       "autoria": "Clarice Lispector",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "conteudo": "Eles nunca deveriam ter nos dado uniformes se não quisessem que fôssemos um exército.",
       "autoria": "The Handmaid's Tale",
       "modelo": "modelo2",
-      "id": "tWHzDR-"
+      "id": "tWHzDR-",
+      "favorito": false
     },
     {
       "conteudo": "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher. ",
       "autoria": "Cora Coralina",
       "modelo": "modelo2",
-      "id": "dQ5DIX5"
+      "id": "dQ5DIX5",
+      "favorito": false
     },
     {
       "conteudo": "Quem está feliz também fará os outros felizes.",
       "autoria": "Anne Frank",
       "modelo": "modelo1",
-      "id": "VSTo8lU"
+      "id": "VSTo8lU",
+      "favorito": false
     },
     {
       "conteudo": "O segredo da existência não consiste somente em viver, mas em saber para que se vive.",
       "autoria": "Fiodor Dostoievski  ",
       "modelo": "modelo3",
-      "id": "cwGZhnJ"
+      "id": "cwGZhnJ",
+      "favorito": false
     },
     {
       "conteudo": "Marianne tinha a sensação de que sua vida real estava acontecendo em algum lugar muito distante, acontecendo sem ela, e ela não sabia se algum dia descobriria onde estava ou se tornaria parte disso.",
       "autoria": " Sally Rooney, no livro Pessoas Normais",
       "modelo": "modelo3",
-      "id": "JA5rIYt"
+      "id": "JA5rIYt",
+      "favorito": true
     },
     {
       "conteudo": "Talvez Platão soubesse algo que não sabíamos. Ou talvez os deuses o fizessem, quando nos dividiram ao meio e nos deixaram para recuperar nossos fragmentos perdidos.",
       "autoria": "Morgan Rogers, no livro Honey Girl",
       "modelo": "modelo1",
-      "id": "CRNKSFE"
+      "id": "CRNKSFE",
+      "favorito": false
     },
     {
       "conteudo": "Os livros são meus amigos, meus companheiros. Eles me fazem rir, chorar e encontrar sentido na vida.  ",
       "autoria": "Christopher Paolini, Eragon",
       "modelo": "modelo2",
-      "id": "UEkppwv"
+      "id": "UEkppwv",
+      "favorito": false
     },
     {
       "conteudo": "Os batimentos do seu coração fazem o mundo continuar girando.",
       "autoria": "O silêncio das Águas",
       "modelo": "modelo2",
-      "id": "77SXaxo"
+      "id": "77SXaxo",
+      "favorito": false
     },
     {
       "conteudo": "São tempos difíceis para os sonhadores.",
       "autoria": "O fabuloso destino de Amélie Poulain",
       "modelo": "modelo3",
-      "id": "UkfK1Ck"
+      "id": "UkfK1Ck",
+      "favorito": true
     },
     {
       "conteudo": "Eu olho direto para o Sol, mas nunca para o espelho. Deve ser exaustivo sempre torcer pelo anti-herói.",
       "autoria": "Taylor Swift, Anti-hero",
       "modelo": "modelo1",
-      "id": "efA7jzu"
+      "id": "efA7jzu",
+      "favorito": false
     },
     {
       "conteudo": "O meu gosto, que é provavelmente a antítese de um gosto tolerante, está longe de o poder aprovar na totalidade: em geral, aprovar não está nos meus hábitos, prefiro contradizer ou até não dizer absolutamente nada… É o que eu faço em relação a culturas inteiras, em relação a livros,- e também a cidades e paisagens.",
       "autoria": "Friedrich Nietzsche ",
       "modelo": "modelo3",
-      "id": "BW6NwH0"
+      "id": "BW6NwH0",
+      "favorito": true
     },
     {
       "conteudo": "Pensamento duplo indica a capacidade de ter na mente, ao mesmo tempo, duas opiniões contraditórias e aceitar ambas.",
       "autoria": "1984, livro de George Orwell",
       "modelo": "modelo2",
-      "id": "PeB_eRC"
+      "id": "PeB_eRC",
+      "favorito": false
     },
     {
       "conteudo": "É somente com o coração que se pode ver direito; o essencial é invisível aos olhos.",
       "autoria": "O Pequeno Príncipe",
       "modelo": "modelo3",
-      "id": "bXHODnZ"
+      "id": "bXHODnZ",
+      "favorito": false
     },
     {
       "conteudo": "Só porque sua versão do normal não é a mesma que a versão de outra pessoa não significa que há algo de errado com você.",
       "autoria": "A coisa terrível que aconteceu com Barnaby Brocket",
       "modelo": "modelo1",
-      "id": "gA9N_EV"
+      "id": "gA9N_EV",
+      "favorito": false
     },
     {
       "id": "4TeCTYR",
       "conteudo": "Aceitamos o amor que achamos que merecemos.",
       "autoria": "As vantagens de ser invisível",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "Me vi sentada embaixo da árvore, morrendo de fome, simplesmente porque não conseguia decidir com qual figo eu ficaria. Eu queria todos eles, mas escolher um significava perder todo o resto, e enquanto eu ficava ali sentada, incapaz de tomar uma decisão, os figos começaram a encolher e ficar pretos e, um por um, desabaram no chão aos meus pés. ",
       "autoria": "Sylvia Plath, em A redoma de vidro",
       "modelo": "modelo1",
-      "id": "S2y_WTu"
+      "id": "S2y_WTu",
+      "favorito": true
     },
     {
       "conteudo": "Só depois de perdermos tudo é que somos livres para fazer qualquer coisa.",
       "autoria": "Chuck Palahniuk, Clube da Luta",
       "modelo": "modelo2",
-      "id": "zp_Lr6p"
+      "id": "zp_Lr6p",
+      "favorito": false
     },
     {
       "conteudo": "Minha mãe sempre disse que a vida era como uma caixa de chocolates. Você nunca sabe o que vai receber.",
       "autoria": "Forrest Gump, 1994",
       "modelo": "modelo2",
-      "id": "t0ziyzi"
+      "id": "t0ziyzi",
+      "favorito": false
     }
   ]
 }
