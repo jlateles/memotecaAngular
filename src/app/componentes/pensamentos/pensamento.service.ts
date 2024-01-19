@@ -27,12 +27,34 @@ export class PensamentoService {
     return this.http.get<Pensamento[]>(this.API,{ params }) // não funcionou com a classe httpParams
   }
 
+  listaPensamentosFavoritos(pagina: number, filtro: string): Observable<Pensamento[]>{
+
+    const itensPorPagina = 5;
+    let params = new HttpParams()
+    .set("_page", pagina)
+    .set("_limit", itensPorPagina)
+    .set("favoritos", true)
+
+    if(filtro.trim().length  > 2 ){
+      params = params.set("q", filtro)
+    }
+
+    return this.http.get<Pensamento[]>(this.API,{ params })
+
+  }
+
   criar(pensamento: Pensamento): Observable<Pensamento>{
     return this.http.post<Pensamento>(this.API, pensamento)
   }
 
   editar(pensamento: Pensamento): Observable<Pensamento>{
     const url  = `${this.API}/${pensamento.id}`
+    return this.http.put<Pensamento>(url, pensamento)
+  }
+
+    mudarFavorito(pensamento: Pensamento): Observable<Pensamento>{
+    pensamento.favorito =!pensamento.favorito
+    const url = `${this.API}/${pensamento.id}` /// poderia usar apenas return this.editar(pensamento) pq as linhas 21-42 são iguais as 35-36
     return this.http.put<Pensamento>(url, pensamento)
   }
 

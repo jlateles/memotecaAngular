@@ -4,6 +4,7 @@
   <p class="autoria"><b>{{pensamento.autoria}}</b></p>
   <div class="acoes">
     <button
+    (click)="atualizarFavoritos()"
     class="botao-favorito"
     type="submit">
     <img src="../../../../assets/imagens/icone-favorito-{{ mudarIconeFavorito() }}.png" alt="ícone favorito {{ mudarIconeFavorito() }}">

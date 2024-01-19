@@ -1,6 +1,14 @@
 <section class="container">
   <header class="header d-flex">
+
      <h2 ff-inter>Mural</h2>
+
+     <div class="botoes">
+      <button type="submit" class="botao">Mural</button>
+      <button type="submit" class="botao" (click)="listarFavoritos()">Favoritos</button>
+      <button routerLink="/criarPensamento" type="submit" class="botao">Adicionar um novo pensamento</button>
+     </div>
+
     <div class="buscar-pensamentos">
       <input
       type="search"
@@ -13,8 +21,6 @@
       <img src="../../../../assets/imagens/lupa.png" alt="lupa azul">
     </div>
 
-
-    <button routerLink="/criarPensamento" type="submit" class="botao">Adicionar  um novo pensamento</button>
   </header>
 
   <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
