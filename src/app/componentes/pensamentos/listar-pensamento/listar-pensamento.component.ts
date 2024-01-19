@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
 import { Router } from '@angular/router';
@@ -18,15 +18,28 @@ export class ListarPensamentoComponent implements OnInit {
   listaFaoritos: Pensamento[] = [];
   titulo: string = 'Mural';
 
+  // código para o botão de voltar ao topo
+  mostrarBotaoTopo: boolean = false;
 
   constructor(
     private service: PensamentoService,
     private router: Router){}
 
+
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    const scrollPosition = window.scrollY  || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+    const bodyHeight = document.body.scrollHeight || document.documentElement.scrollHeight || 0;
+
+    this.mostrarBotaoTopo = scrollPosition > bodyHeight - windowHeight - 200;
+  }
+
   ngOnInit(): void {
     this.service.listar(this.paginaAtual, this.filtro, this.favoritos).subscribe((listaPensamentos) => {
       this.listaPensamentos = listaPensamentos
-    })
+    });
   }
 
   carregarMaisPensamentos(){
@@ -70,6 +83,9 @@ export class ListarPensamentoComponent implements OnInit {
     })
   }
 
+  voltarAoTopo(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
 } // final
 
