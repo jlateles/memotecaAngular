@@ -2,11 +2,11 @@
   <header class="header d-flex">
 
      <h2 ff-inter>Mural</h2>
-
+<!-- routerLink="/listarPensamento" -->
      <div class="botoes">
-      <button type="submit" class="botao">Mural</button>
+      <button type="submit" class="botao" (click)="voltarAoMural()">Mural</button>
       <button type="submit" class="botao" (click)="listarFavoritos()">Favoritos</button>
-      <button routerLink="/criarPensamento" type="submit" class="botao">Adicionar novo pensamento</button>
+      <button type="submit" class="botao">Adicionar novo pensamento</button>
      </div>
 
     <div class="buscar-pensamentos">
