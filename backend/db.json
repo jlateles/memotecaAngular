@@ -153,6 +153,34 @@
       "modelo": "modelo2",
       "id": "t0ziyzi",
       "favorito": false
+    },
+    {
+      "id": "QVTqp7m",
+      "conteudo": "Nunca consigo ler todos os livros que quero. Eu nunca posso ser todas as pessoas que eu quero e viver todas as vidas que eu quero. Eu nunca posso me treinar em todas as habilidades que eu quero. E por que eu quero? Quero viver e sentir todos os tons, tons e variações de experiência mental e física possíveis na minha vida. E eu sou terrivelmente limitado.",
+      "autoria": "Os Diários de Sylvia Plath",
+      "modelo": "modelo3",
+      "favorito": true
+    },
+    {
+      "conteudo": "Seja qual for a matéria de que as nossas almas são feitas, a minha e a dele são iguais.",
+      "autoria": "Emily Brontë, O Morro dos ventos uivantes",
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": "7eNJZPx"
+    },
+    {
+      "id": "EkNc1-i",
+      "conteudo": "Sempre que tiver vontade de criticar alguém, basta lembrar que todas as pessoas neste mundo não tiveram as vantagens que você teve.",
+      "autoria": "O Grande Gatsby, F. Scott Fitzgerald",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "conteudo": "Por que, às vezes, eu acreditei em até seis coisas impossíveis antes do café da manhã.",
+      "autoria": "Alice Através do Espelho, Lewis Carroll",
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": "mwIBLsb"
     }
   ]
 }
