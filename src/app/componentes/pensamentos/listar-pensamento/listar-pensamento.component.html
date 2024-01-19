@@ -1,12 +1,12 @@
 <section class="container">
   <header class="header d-flex">
 
-     <h2 ff-inter>Mural</h2>
-<!-- routerLink="/listarPensamento" -->
+     <h2 ff-inter>{{ titulo }}</h2>
+
      <div class="botoes">
-      <button type="submit" class="botao" (click)="voltarAoMural()">Mural</button>
+      <button type="submit" class="botao" (click)="recarregarComponente()" >Mural</button>
       <button type="submit" class="botao" (click)="listarFavoritos()">Favoritos</button>
-      <button type="submit" class="botao">Adicionar novo pensamento</button>
+      <button routerLink="/criarPensamento" type="submit" class="botao">Adicionar novo pensamento</button>
      </div>
 
     <div class="buscar-pensamentos">
@@ -25,7 +25,10 @@
 
   <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
     <div *ngFor="let pensamento of listaPensamentos">
-      <app-pensamento [pensamento]="pensamento" ></app-pensamento>
+      <app-pensamento
+      [pensamento]="pensamento"
+      [listaFavoritos]="listaFaoritos"
+      ></app-pensamento>
     </div>
   </div>
 

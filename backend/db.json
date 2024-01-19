@@ -61,7 +61,7 @@
       "autoria": " Sally Rooney, no livro Pessoas Normais",
       "modelo": "modelo3",
       "id": "JA5rIYt",
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "Talvez Platão soubesse algo que não sabíamos. Ou talvez os deuses o fizessem, quando nos dividiram ao meio e nos deixaram para recuperar nossos fragmentos perdidos.",
@@ -89,7 +89,7 @@
       "autoria": "O fabuloso destino de Amélie Poulain",
       "modelo": "modelo3",
       "id": "UkfK1Ck",
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "Eu olho direto para o Sol, mas nunca para o espelho. Deve ser exaustivo sempre torcer pelo anti-herói.",
