@@ -27,7 +27,7 @@ export class PensamentoService {
     return this.http.get<Pensamento[]>(this.API,{ params }) // não funcionou com a classe httpParams
   }
 
-  listaPensamentosFavoritos(pagina: number, filtro: string): Observable<Pensamento[]>{
+  listaPensamentosFavoritos(pagina: number, filtro: string): Observable<Pensamento[]> {
 
     const itensPorPagina = 5;
     let params = new HttpParams()
